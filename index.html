@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>GitHub Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <h1>GitHub Explorer</h1>
+        <div id="search-container">
+            <input type="text" id="username" placeholder="Enter username">
+            <button id="search-btn">Search</button>
+        </div>
+        <div id="profile" class="hidden">
+            <h2 id="name"></h2>
+            <img id="avatar" src="" alt="User Avatar">
+            <p id="bio"></p>
+        </div>
+        <div id="repos" class="hidden">
+            <h3>Repositories</h3>
+            <ul id="repo-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
